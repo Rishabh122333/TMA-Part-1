@@ -314,7 +314,6 @@ body {
     .EDIFAQ {
         width: 100%;
         gap: 10%;
-        /* justify-content: center; */
         flex-direction: column;
     }
     .TAXFAQ {

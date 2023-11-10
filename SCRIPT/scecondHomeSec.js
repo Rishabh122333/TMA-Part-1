@@ -72,7 +72,7 @@ const handleScroll = () => {
   const blackBorderBottom = '.navButton {color: black;background-color:#f1f5f9;}.factLinkContainer:hover {background-color: white;}.addOption {color: black;}.addOption:hover {border-bottom: 3px solid black;}';
   styleElementWhite.textContent = whiteBorderBottom;
   styleElementBlack.textContent = blackBorderBottom;
-  document.getElementsByClassName('logoImage')[0].src = `${window.scrollY <= 90 ? '../IMAGES/logo.svg' : '../IMAGES/scrollLogo.svg'}`
+  document.getElementsByClassName('logoImage')[0].src = `${window.scrollY <= 90 ? './IMAGES/logo.svg' : './IMAGES/scrollLogo.svg'}`
   document.getElementById('firstSectionContainer').style.cssText = `${window.scrollY <= 90 ? 'background-color: transparent'
     :
     `z-index: 10;

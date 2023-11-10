@@ -124,7 +124,7 @@ html, body {
 
 
 .tmaMainpart2 {
-    background-image: url(../IMAGES/image\ 2rish.webp);
+    background-image: url(./IMAGES/image\ 2rish.webp);
     z-index: 2;
     height: 110vh;
     overflow: hidden;
@@ -458,7 +458,7 @@ html, body {
 
 .tmparts {
     margin-top: 10px;
-    background-image: url(../IMAGES/uncleji.jpg);
+    background-image: url(./IMAGES/uncleji.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
